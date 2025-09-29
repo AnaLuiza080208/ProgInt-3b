@@ -1,0 +1,19 @@
+{
+    "name": "api-crud-jwt",
+    "version": "1.0.0",
+    "description": "API BackEnd com Node.js, Express, JWT e persistência em arquivo JSON.",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "express": "^4.19.2",
+        "jsonwebtoken": "^9.0.2",
+        "uuid": "^9.0.1"
+    }
+}
